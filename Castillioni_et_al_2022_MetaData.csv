@@ -1,0 +1,64 @@
+MetaData for Castillioni et al. (2022). Effects of drought on grassland phenology depend on functional types. New Phytologist.,,,
+,,,
+File name,Variables,Type,Variable Description
+Castillioni_etal_2022_phenology_data.csv,block,factor,Block number (3 blocks)
+,plot,factor,Plot number (21 plots)
+,precipitation,integer,"A treatment consisting of a gradient of seven precipitation levels: -100% precipitation reduction, -80% precipitation reduction, -60% precipitation reduction, -40% precipitation reduction, -20% precipitation reduction, 0% precipitation reduction, 50% precipitation addition"
+,species,factor,"11 focal species: AP = Ambrosia psilostachya, BI=Bothriochloa ischaemum, CF= Chamaecrista fasciculata, CM= Croton monanthogynus, CS=Calylophus serrulatus, DO= Dichanthelium oligosanthes,  ES= Erigeron strigosus, SC= Sporobolus compositus,  SE= Symphyotrichum ericoides,  SN= Sorghastrum nutans,  SS= Schizachyrium scoparium"
+,replicate,factor,Five focal individuals of each species per plot
+,func_group,factor,"Photosynthetic pathway, either C3 or  C4 "
+,life_history,factor,"Life hystory, either annual or perennial"
+,first_flower_mean,integer,Mean flower date of given species shown as julian date
+,early_late,factor,Blooming time classification based on mean flower date cut off 
+,forb_grass,factor,Forb or gass species
+,early_late,factor,Blooming time classification based on mean flower date cut off 
+,gdd,numeric,Growing degree day
+,first_flower,integer,"First day of open flower when stigmas or anthers were visible and appeared to be fresh (i.e., were not dried out and brown). "
+,last_flower,integer,Last day on which flowers were present
+,first_fruit,integer,"First mature fruits if fruit color was changed from green to either yellow, orange, or red. If fruits were always green or if the species was a graminoid, fruits were considered mature if fruits were easily detachable from the reproductive inflorescence. "
+,last_fruit,integer,Last day on which fruits were present
+,peak_flower,integer,Date of peak flowering
+,peak_fruit,integer,Date of peak fruiting
+,duration_flower,integer,Number of days between the onset (first day on which flowers were present) and conclusion (last day on which which flowers) of each phenological event (flowering)
+,duration_fruit,integer,Number of days between the onset (first day on which fruits were present) and conclusion (last day on which which fruiting) of each phenological event (fruiting)
+Castillioni_etal_2022_floral_abundance.csv,,,
+,block,factor,Block number (3 blocks)
+,plot,factor,Plot number (21 plots)
+,precipitation,integer,"A treatment consisting of a gradient of seven precipitation levels: -100% precipitation reduction, -80% precipitation reduction, -60% precipitation reduction, -40% precipitation reduction, -20% precipitation reduction, 0% precipitation reduction, 50% precipitation addition"
+,species,factor,"11 focal species: AP = Ambrosia psilostachya, BI=Bothriochloa ischaemum, CF= Chamaecrista fasciculata, CM= Croton monanthogynus, CS=Calylophus serrulatus, DO= Dichanthelium oligosanthes,  ES= Erigeron strigosus, SC= Sporobolus compositus,  SE= Symphyotrichum ericoides,  SN= Sorghastrum nutans,  SS= Schizachyrium scoparium"
+,replicate,factor,Five focal individuals of each species per plot
+,func_group,factor,"Photosynthetic pathway, either C3 or  C4 "
+,life_history,factor,"Life hystory, either annual or perennial"
+,early_late,factor,Blooming time classification based on mean flower date cut off 
+,forb_grass,factor,Forb or gass species
+,gdd,numeric,Growing degree day
+,first_flower_mean,integer,Mean flower date of given species shown as julian date
+,flower,integer,Flower count
+Castillioni_etal_2022_fruit_abundance.csv,,,
+,block,factor,Block number (3 blocks)
+,plot,factor,Plot number (21 plots)
+,precipitation,integer,"A treatment consisting of a gradient of seven precipitation levels: -100% precipitation reduction, -80% precipitation reduction, -60% precipitation reduction, -40% precipitation reduction, -20% precipitation reduction, 0% precipitation reduction, 50% precipitation addition"
+,species,factor,"11 focal species: AP = Ambrosia psilostachya, BI=Bothriochloa ischaemum, CF= Chamaecrista fasciculata, CM= Croton monanthogynus, CS=Calylophus serrulatus, DO= Dichanthelium oligosanthes,  ES= Erigeron strigosus, SC= Sporobolus compositus,  SE= Symphyotrichum ericoides,  SN= Sorghastrum nutans,  SS= Schizachyrium scoparium"
+,replicate,factor,Five focal individuals of each species per plot
+,func_group,factor,"Photosynthetic pathway, either C3 or  C4 "
+,life_history,factor,"Life hystory, either annual or perennial"
+,early_late,factor,Blooming time classification based on mean flower date cut off 
+,forb_grass,factor,Forb or gass species
+,gdd,numeric,Growing degree day
+,first_flower_mean,integer,Mean flower date of given species shown as julian date
+,fruit,integer,Fruit count
+Castillioni_etal_2022_seed_viability.csv,,,
+,block,factor,Block number (3 blocks)
+,plot,factor,Plot number (21 plots)
+,precipitation,integer,"A treatment consisting of a gradient of seven precipitation levels: -100% precipitation reduction, -80% precipitation reduction, -60% precipitation reduction, -40% precipitation reduction, -20% precipitation reduction, 0% precipitation reduction, 50% precipitation addition"
+,species,factor,"11 focal species: AP = Ambrosia psilostachya, BI=Bothriochloa ischaemum, CF= Chamaecrista fasciculata, CM= Croton monanthogynus, CS=Calylophus serrulatus, DO= Dichanthelium oligosanthes,  ES= Erigeron strigosus, SC= Sporobolus compositus,  SE= Symphyotrichum ericoides,  SN= Sorghastrum nutans,  SS= Schizachyrium scoparium"
+,replicate,factor,Five focal individuals of each species per plot
+,func_group,factor,"Photosynthetic pathway, either C3 or  C4 "
+,duration,factor,"Life hystory, either annual or perennial"
+,early_late,factor,Blooming time classification based on mean flower date cut off 
+,forb_grass,factor,Forb or gass species
+,first_flower_mean,integer,Mean flower date of given species shown as julian date
+,origin,factor,method to estimate seed viability
+,viable.sum,numeric,viable seeds
+,total_seeds_sum,numeric,total seeds analyzed for viability
+,proportion_viable,numeric,proportion of viable seeds
